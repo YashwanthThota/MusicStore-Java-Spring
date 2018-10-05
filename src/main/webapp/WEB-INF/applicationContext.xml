@@ -8,7 +8,7 @@
 
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="org.postgresql.Driver" />
-        <property name="url" value="jdbc:postgresql://ec2-23-23-216-40.compute-1.amazonaws.com:5432/d3502je362devv?sslmode=require&amp;sslfactory=org.postgresql.ssl.NonValidatingFactory" />
+        <property name="url" value="jdbc:postgresql://ec2-23-23-216-40.compute-1.amazonaws.com:5432/d3502je362devv?sslmode=require" />
         <property name="username" value="lkurgwshsplany" />
         <property name="password" value="15de1e487bde83a586719e4ba300b930636cd14b68bd559d39405ba92fcecc8f" />
     </bean>
