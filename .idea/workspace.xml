@@ -7,169 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11f306cd-a88a-4066-94d3-13fe7b5f2cff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/controller/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/controller/CartResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/controller/RegisterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/controller/admin/AdminHome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/controller/admin/AdminProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/dao/CartDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/dao/CartItemDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/dao/CustomerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/dao/CustomerOrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/dao/impl/CartDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/dao/impl/CartItemDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/dao/impl/CustomerDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/dao/impl/CustomerOrderDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/dao/impl/ProductDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/model/Authorities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/model/BillingAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/model/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/model/CartItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/model/CustomerOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/model/ShippingAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/model/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/service/CartItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/service/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/service/CustomerOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/service/impl/CartItemServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/service/impl/CartServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/service/impl/CustomerOrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/service/impl/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/checkout/checkOutCancelled.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/checkout/checkout-flow.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/checkout/collectCustomerInfo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/checkout/collectShippingDetail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/checkout/invalidCartWarning.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/checkout/orderConfirmation.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/checkout/thankCustomer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/images/13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/images/33.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/images/34.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/images/35.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/images/back1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/images/back2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/images/back3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/images/instrument.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/images/record.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/images/showroom.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/about.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customerManagement.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registerCustomer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registerCustomerSuccess.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/controller/CartController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/controller/CartResources.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/controller/OrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/controller/ProductController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/controller/RegisterController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/controller/admin/AdminHome.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/controller/admin/AdminProduct.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/dao/CartDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/dao/CartItemDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/dao/CustomerDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/dao/CustomerOrderDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/dao/impl/CartDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/dao/impl/CartItemDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/dao/impl/CustomerDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/dao/impl/CustomerOrderDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/dao/impl/ProductDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/model/Authorities.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/model/BillingAddress.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/model/Cart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/model/CartItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/model/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/model/CustomerOrder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/model/ShippingAddress.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/model/Users.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/service/CartItemService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/service/CartService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/service/CustomerOrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/service/CustomerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/service/ProductService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/service/impl/CartItemServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/service/impl/CartServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/service/impl/CustomerOrderServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/service/impl/CustomerServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/service/impl/ProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/eMusicStore_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/eMusicStore_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/eMusicStore_war_exploded/WEB-INF/classes/com/emusicstore/controller/HomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/eMusicStore_war_exploded/WEB-INF/classes/com/emusicstore/dao/ProductDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/eMusicStore_war_exploded/WEB-INF/classes/com/emusicstore/model/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/eMusicStore_war_exploded/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/eMusicStore_war_exploded/WEB-INF/resources/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/eMusicStore_war_exploded/WEB-INF/resources/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/eMusicStore_war_exploded/WEB-INF/resources/css/carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/eMusicStore_war_exploded/WEB-INF/resources/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/eMusicStore_war_exploded/WEB-INF/resources/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/eMusicStore_war_exploded/WEB-INF/resources/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/eMusicStore_war_exploded/WEB-INF/resources/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/eMusicStore_war_exploded/WEB-INF/resources/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/eMusicStore_war_exploded/WEB-INF/resources/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/eMusicStore_war_exploded/WEB-INF/resources/js/jquery-1.12.4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/eMusicStore_war_exploded/WEB-INF/views/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/eMusicStore_war_exploded/WEB-INF/views/productList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productInventory.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/eMusicStore_war_exploded/WEB-INF/views/template/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/eMusicStore_war_exploded/WEB-INF/views/template/header.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/eMusicStore_war_exploded/WEB-INF/views/viewProduct.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/eMusicStore_war_exploded/WEB-INF/web.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emusicstore/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emusicstore/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/dao/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emusicstore/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-aop-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-aspects-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-beans-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-context-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-context-support-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-core-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-expression-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-instrument-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-jdbc-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-jms-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-messaging-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-orm-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-oxm-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-test-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-tx-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-web-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-webmvc-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-webmvc-portlet-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-websocket-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/standard-1.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/viewProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/viewProduct.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/controller/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/dao/ProductDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/model/Product.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -312,7 +150,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="267">
-              <caret line="120" column="3" selection-start-line="120" selection-start-column="3" selection-end-line="120" selection-end-column="3" />
+              <caret line="120" column="3" lean-forward="true" selection-start-line="120" selection-start-column="3" selection-end-line="144" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -465,7 +303,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538698562933" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538698628216" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -646,12 +484,12 @@
       <workItem from="1538260363940" duration="28054000" />
       <workItem from="1538354192449" duration="37378000" />
       <workItem from="1538504506558" duration="6145000" />
-      <workItem from="1538510730041" duration="43623000" />
+      <workItem from="1538510730041" duration="43688000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115200000" />
+    <option name="totallyTimeSpent" value="115265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
@@ -1157,7 +995,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
-          <caret line="120" column="3" selection-start-line="120" selection-start-column="3" selection-end-line="120" selection-end-column="3" />
+          <caret line="120" column="3" lean-forward="true" selection-start-line="120" selection-start-column="3" selection-end-line="144" selection-end-column="12" />
         </state>
       </provider>
     </entry>
