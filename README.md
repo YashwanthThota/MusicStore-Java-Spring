@@ -35,6 +35,6 @@
   - **Admin credientials:**
    **Username:** admin
    **Password:** admin
-  - **Customer credentials**
+  - **Customer credentials:**
   **Username:** user
    **Password:** password
